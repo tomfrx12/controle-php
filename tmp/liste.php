@@ -78,7 +78,7 @@ function Moyenne($jeux) {
                             <?= EtoileNote($jeu['note']) ?>
                         </td>
                         <td class="flex justify-center gap-2">
-                            <a href="modifier.php?id=<?= $queryGetJeux['id'] ?>" 
+                            <a href="./modifier.php?id=<?= $jeu['id'] ?>" 
                             class="justify-self-end border bg-green-200 hover:bg-green-400 p-2 transition-colors duration-200 inline-block">
                             Modifier
                             </a>
